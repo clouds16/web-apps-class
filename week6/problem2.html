@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <?php
+
+
+
+
+
+
+    $usercolor = readline('Input your favorite color and i can tell you the wavelength of that color? (red, green , blue , yellow)');
+    
+    switch ($usercolor) {
+      case "red":
+        echo "The wavelength of red is 650 nanometers";
+        break;
+      case "blue":
+        echo "The wavelength of blue is 500 Nanometers ";
+        break;
+      case "green":
+        echo "The wavelength of green is :  550 nanometers ";
+        break;
+    
+      case "yellow":
+        echo "the wavelength of yellow is : 580 nanometers ";
+        break;
+    
+    
+    
+      default:
+        echo "Couldnt recognize that color, select ( red , green , blue or yellow) ";
+    }
+    
+    
+    
+    
+    ?>
+    
+    
+</body>
+</html>
